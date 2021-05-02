@@ -1,0 +1,45 @@
+---
+---
+@charset "utf-8";
+
+@import 'vendor/normalize';
+
+@import 'base/root';
+
+body {
+    background: 0 0 url(/assets/images/background.svg) no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+    margin: 100px auto;
+    width: 50%;
+}
+h1 {
+    display: inline-block;
+    width: 100px;
+    height: 91px;
+    background-image: url(/assets/images/logo-vital-means.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 span {
+    font-size: 0;
+    color: rgba(0,0,0,0);
+}
+label {
+    display: block;
+}
+input#subscribe-email, 
+input#subscribe-form-submit {
+    border-radius: 2px;
+    border: none;
+    padding: 4px 8px;
+    line-height: 1.4;
+}
+#subscribe-form-submit {
+    line-height: 1.4;
+}
+.help-block {
+    display: none;
+}
